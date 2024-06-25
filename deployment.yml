@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlops
+  labels:
+    app: mlops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mlops
+  template:
+    metadata:
+      labels:
+        app: mlops
+    spec:
+      containers:
+        - name: mlops
+          image: 637423514597.dkr.ecr.us-east-2.amazonaws.com/mlops:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8005

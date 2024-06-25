@@ -45,4 +45,13 @@ jobs:
         echo "Pushing image to ECR..."
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+
+    - name: Update kube config
+      run: aws eks update-kubeconfig --name mlops
+
+    - name: Deploy to EKS
+      run: |
+        kubectl apply -f deployment.yml
+        kubectl apply -f service.yml
+
    
