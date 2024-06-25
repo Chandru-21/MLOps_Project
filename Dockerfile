@@ -26,6 +26,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN pip install dvc[s3]
 
+# AWS credentials
+ARG AWS_ACCESS_KEY_ID
+ARG AWS_SECRET_ACCESS_KEY
+ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+ENV AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+
+
 RUN dvc pull
 
 RUN python /app/prediction_model/training_pipeline.py
