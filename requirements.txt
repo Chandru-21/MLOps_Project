@@ -1,0 +1,15 @@
+# Model building requirements
+numpy==1.24.3
+pandas==1.5.3
+joblib==1.2.0
+scikit-learn==1.2.2
+scipy==1.10.1
+pytest==7.4.2
+fastapi==0.103.0
+pydantic==2.4.2
+uvicorn==0.23.2
+gunicorn==21.2.0
+hyperopt==0.2.7
+mlflow==2.13.2
+xgboost==2.0.3
+python-multipart==0.0.9
