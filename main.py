@@ -54,6 +54,8 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+Instrumentator().instrument(app).expose(app) 
+
 class LoanPrediction(BaseModel):
     Gender: str
     Married: str
@@ -133,10 +135,8 @@ async def batch_predict(file: UploadFile = File(...)):
     return StreamingResponse(io.BytesIO(result.encode('utf-8')), media_type="text/csv", headers={"Content-Disposition":"attachment; filename=predictions.csv"})
 
 
-   
+
 
 if __name__== "__main__":
     uvicorn.run(app, host="0.0.0.0",port=8005)
     
-
-Instrumentator().instrument(app).expose(app)
