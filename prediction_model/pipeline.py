@@ -6,7 +6,6 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-
 preprocessing_pipeline = Pipeline(
     [
         ('DomainProcessing',pp.DomainProcessing(variable_to_modify = config.FEATURE_TO_MODIFY,
