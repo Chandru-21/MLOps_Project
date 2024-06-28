@@ -51,7 +51,7 @@ S3_BUCKET = "loanprediction"
 
 FOLDER="datadrift"
 
-TRACKING_URI="http://ec2-3-19-244-223.us-east-2.compute.amazonaws.com:5000/"
+TRACKING_URI="http://ec2-18-218-223-254.us-east-2.compute.amazonaws.com:5000/"
 
 
 EXPERIMENT_NAME="loan_prediction_model"
