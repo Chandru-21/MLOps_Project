@@ -21,7 +21,6 @@ def upload_to_s3(file_content, filename):
         filename = filename[:-4]
         
     current_datetime = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-
     folder_path = f"{config.FOLDER}/{current_date}"
  
     filename_with_datetime = f"{filename}_{current_datetime}.csv"
