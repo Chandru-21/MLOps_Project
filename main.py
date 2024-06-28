@@ -13,6 +13,7 @@ import boto3
 from datetime import datetime
 from prometheus_fastapi_instrumentator import Instrumentator
 
+
 def upload_to_s3(file_content, filename):
     s3 = boto3.client('s3')
     
