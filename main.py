@@ -84,6 +84,7 @@ def predict(loan_details: LoanPrediction):
         pred = "Rejected"
     return {"status":pred}
 
+
 @app.post("/prediction_ui")
 def predict_gui(Gender: str,
     Married: str,
@@ -115,7 +116,7 @@ def predict_gui(Gender: str,
 
 @app.post("/batch_prediction")
 async def batch_predict(file: UploadFile = File(...)):
-    
+
     content = await file.read()
     df = pd.read_csv(io.BytesIO(content),index_col=False)
     print(df)
