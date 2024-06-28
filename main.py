@@ -114,6 +114,7 @@ def predict_gui(Gender: str,
     return {"status":pred}
 
 
+
 @app.post("/batch_prediction")
 async def batch_predict(file: UploadFile = File(...)):
 
