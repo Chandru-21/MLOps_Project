@@ -11,7 +11,7 @@ import mlflow
 import io
 import boto3
 from datetime import datetime
-
+from prometheus_fastapi_instrumentator import Instrumentator
 
 def upload_to_s3(file_content, filename):
     s3 = boto3.client('s3')
@@ -137,3 +137,6 @@ async def batch_predict(file: UploadFile = File(...)):
 
 if __name__== "__main__":
     uvicorn.run(app, host="0.0.0.0",port=8005)
+    
+
+Instrumentator().instrument(app).expose(app)

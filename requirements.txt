@@ -13,3 +13,4 @@ hyperopt==0.2.7
 mlflow==2.13.2
 xgboost==2.0.3
 python-multipart==0.0.9
+prometheus_fastapi_instrumentator
