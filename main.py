@@ -70,6 +70,7 @@ class LoanPrediction(BaseModel):
     Property_Area: str
 
 
+
 @app.get("/")
 def index():
     return {"message":"Welcome to the MLOps Loan Prediction app" }
