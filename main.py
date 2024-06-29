@@ -87,6 +87,7 @@ def predict(loan_details: LoanPrediction):
 
 
 
+
 @app.post("/prediction_ui")
 def predict_gui(Gender: str,
     Married: str,
