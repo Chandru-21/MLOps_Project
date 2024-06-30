@@ -1,6 +1,8 @@
-Machine Learning Opearations (MLOps) architecture implemented for this project,
+# Machine Learning Opearations (MLOps)
 
-MLOps maturity level 2
+## MLOps maturity level 2
+
+### Architecture
 
 ![image](https://github.com/Chandru-21/MLOps_Project/assets/64595758/628ba107-03b0-43a5-a968-ab5d0e526b5b)
 
