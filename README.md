@@ -2,16 +2,16 @@
 
 ## MLOps maturity level 4
 
-## Overview
+## Overview :
 This project implements a robust MLOps pipeline, facilitating the continuous integration, continuous deployment, and monitoring of machine learning models. The infrastructure leverages AWS, Kubernetes, and various open-source tools to ensure scalability, reproducibility, and maintainability.
 
 
 
-## Architecture
+## Architecture :
 
 ![image](https://github.com/Chandru-21/MLOps_Project/assets/64595758/123511be-fe66-424d-8776-513b908840fe)
 
-## Key Features
+## Key Features :
 
 ### Data Versioning : DVC
 
@@ -32,7 +32,7 @@ This project implements a robust MLOps pipeline, facilitating the continuous int
 
 
 
-# Monitoring :
+# Data Monitoring :
 
 #### Data Drift Monitoring :
 
