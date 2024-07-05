@@ -7,7 +7,7 @@ This project implements a robust MLOps pipeline, facilitating the continuous int
 
 
 
-### Architecture
+## Architecture
 
 ![image](https://github.com/Chandru-21/MLOps_Project/assets/64595758/123511be-fe66-424d-8776-513b908840fe)
 
