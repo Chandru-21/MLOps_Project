@@ -32,7 +32,7 @@ This project implements a robust MLOps pipeline, facilitating the continuous int
 
 
 
-# Data Monitoring :
+## Data Monitoring :
 
 #### Data Drift Monitoring :
 
