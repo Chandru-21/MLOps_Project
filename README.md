@@ -38,7 +38,7 @@
 
 ## Continuous Monitoring(CM)
 
-Exposing /metrics on FastAPI to be connected to Prometheus :
+Exposing "/metrics" on FastAPI to be connected to Prometheus :
 
 ![fastapi](https://github.com/Chandru-21/MLOps_Project/assets/64595758/09b18b44-8cb1-4a86-9172-c79082cb77c8)
 
