@@ -18,7 +18,7 @@
 
 ### Continuous Training(CT) : Triggers code execution through GitHub Actions when new data is pushed to the remote DVC location and committed to Git. 
 
-### Drift Monitoring : Uses a Streamlit app to monitor data drift, target drift, and data quality checks.
+### Drift Monitoring : Uses a Streamlit app to monitor data drift, target drift, and performs data quality checks.
 
 
 
