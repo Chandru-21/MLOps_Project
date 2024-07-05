@@ -34,11 +34,11 @@ This project implements a robust MLOps pipeline, facilitating the continuous int
 
 ## Data Monitoring :
 
-#### Data Drift Monitoring :
+**Data Drift Monitoring** :
 
 ![image](https://github.com/Chandru-21/MLOps_Project/assets/64595758/af0df23d-9980-4ee4-94c0-ddebdb923237)
 
-#### Data Quality checks :
+**Data Quality checks** :
 
 ![image](https://github.com/Chandru-21/MLOps_Project/assets/64595758/c1c62d64-9b69-4ca7-ba45-45ae226a7620)
 
